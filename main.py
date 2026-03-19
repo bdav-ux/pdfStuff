@@ -24,6 +24,7 @@ final.set_font("dejavu-sans", style="", size=10)
 counter = 1
 lineHeight=8
 
+#-2 perché nel codice sotto printable è line+ " "
 def conditionalWrite(text, destination):
     if len(text.split(" "))<=5 and text[-2]!=".":
         destination.set_text_color(0,0,0)
