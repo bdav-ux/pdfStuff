@@ -15,8 +15,8 @@ new.output("newPdf.pdf")
 #legge pdf e ne crea uno nuovo
 final = fpdf.FPDF()
 
-final.add_font("dejavu-sans", style="", fname="DejaVuSans.ttf")
-final.add_font("bold-sans", style="", fname="DejaVuSans-Bold.ttf")
+final.add_font("dejavu-sans", style="", fname="fonts/DejaVuSans.ttf")
+final.add_font("bold-sans", style="", fname="fonts/DejaVuSans-Bold.ttf")
 
 final.set_font("dejavu-sans", style="", size=10)
 
